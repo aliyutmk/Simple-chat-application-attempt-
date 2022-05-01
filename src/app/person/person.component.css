@@ -1,0 +1,18 @@
+input[type='text'] {
+  width: 30%;
+  padding: 25px 30px;
+  margin: 10px 5;
+  box-sizing: border-box;
+  background-color: beige;
+  -webkit-box-shadow: inset 0px 1px 0 #528cbc;
+  -moz-box-shadow: inset 0px 1px 0 #528cbc;
+  box-shadow: inset 0px 1px 0 #528cbc;
+  border-width: 1px 1px 0 1px;
+  border-color: #316897;
+  border-style: solid;
+}
+.btn{
+  background-color:lightgreen;
+  padding: 10px;
+  position: relative;
+}

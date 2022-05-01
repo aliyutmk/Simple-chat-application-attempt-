@@ -1,0 +1,17 @@
+<form>
+  <div class="person-container">
+    <div class="chat-box">
+      <span style="chat-box">
+        <input type="text" #chtext id="chtext"placeholder="Enter your message here...">
+      </span>
+    </div>
+    <div>
+      <button>
+      <input type="submit" value="> Send"  (click)="send(lblName.id, chtext.value)" id="bt">
+      </button>
+      <p>
+        <label #lblName id="lblName"> </label>
+    </p>
+    </div>
+  </div>
+  </form>
